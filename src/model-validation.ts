@@ -1498,9 +1498,9 @@ const modelSchemas: Readonly<Record<string, RuntimeSchema>> = {
   CreateIntegrationStoreDirectResponseStoreProductIntegrationCapabilitiesSecretRotation: {
     ref: "CreateIntegrationStoreDirectResponseStoreProductIntegrationCapabilitiesSecretRotation",
   },
-  UpdateTeamsRequestDeploymentPolicy: { ref: "UpdateTeamsRequestDeploymentPolicy" },
-  UpdateTeamsRequestNsnbConfig: { ref: "UpdateTeamsRequestNsnbConfig" },
-  UpdateTeamsRequestDefaultProjectJobs: { ref: "UpdateTeamsRequestDefaultProjectJobs" },
+  UpdateTeamRequestDeploymentPolicy: { ref: "UpdateTeamRequestDeploymentPolicy" },
+  UpdateTeamRequestNsnbConfig: { ref: "UpdateTeamRequestNsnbConfig" },
+  UpdateTeamRequestDefaultProjectJobs: { ref: "UpdateTeamRequestDefaultProjectJobs" },
   ListTeamsResponseTeamsItem: { ref: "ListTeamsResponseTeamsItem" },
   GetAuthUserResponseUser: { ref: "GetAuthUserResponseUser" },
   ListVercelCiInvocationsResponseInvocationsItemSource: {

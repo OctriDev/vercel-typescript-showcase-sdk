@@ -103313,7 +103313,7 @@
     "errorModels": {}
   },
   {
-    "operationId": "updateTeams",
+    "operationId": "updateTeam",
     "summary": "Updates the specified team's information using the fields supplied in the request body. Include only the team properties you want to change, such as its name, slug, avatar, or feedback settings. The authenticated user must be a team owner to update the team.",
     "method": "PATCH",
     "pathTemplate": "/v2/teams/{teamId}",

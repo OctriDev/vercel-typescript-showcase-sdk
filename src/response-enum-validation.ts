@@ -11325,7 +11325,7 @@ const modelSchemas: Readonly<Record<string, RuntimeSchema>> = {
       },
     ],
   },
-  UpdateTeamsRequestDefaultProjectJobs: {
+  UpdateTeamRequestDefaultProjectJobs: {
     oneOf: [
       {
         type: "object",
@@ -11337,7 +11337,7 @@ const modelSchemas: Readonly<Record<string, RuntimeSchema>> = {
       { type: "string" },
     ],
   },
-  UpdateTeamsRequestDeploymentPolicy: {
+  UpdateTeamRequestDeploymentPolicy: {
     anyOf: [
       {
         type: "object",
@@ -11418,7 +11418,7 @@ const modelSchemas: Readonly<Record<string, RuntimeSchema>> = {
       { type: "string" },
     ],
   },
-  UpdateTeamsRequestNsnbConfig: {
+  UpdateTeamRequestNsnbConfig: {
     anyOf: [{ type: "object", required: ["preference"] }, { type: "string" }],
   },
   UploadProjectAvatarResponseCreator: {
