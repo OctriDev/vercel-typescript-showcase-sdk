@@ -31891,7 +31891,7 @@
   },
   {
     "id": "behavior-229",
-    "operationId": "updateTeams",
+    "operationId": "updateTeam",
     "method": "PATCH",
     "path": "/v2/teams/{teamId}",
     "signature": "{\"errors\":[\"empty\",\"empty\",\"empty\",\"empty\",\"empty\",\"empty\",\"empty\",\"empty\"],\"method\":\"PATCH\",\"nullable\":false,\"pagination\":null,\"parameters\":[{\"array\":false,\"explode\":false,\"location\":\"path\",\"required\":true,\"style\":\"simple\"},{\"array\":false,\"explode\":true,\"location\":\"query\",\"required\":false,\"style\":\"form\"}],\"request\":[\"json\"],\"response\":[\"json\"],\"security\":[{\"bearerToken\":[]}],\"streaming\":false}",

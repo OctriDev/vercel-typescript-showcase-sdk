@@ -339,25 +339,25 @@ export function createCreateIntegrationStoreDirectResponseStoreProductIntegratio
   );
 }
 
-/** Constructs a validated UpdateTeamsRequestDeploymentPolicy model value. */
-export function createUpdateTeamsRequestDeploymentPolicy(
-  value: Types.UpdateTeamsRequestDeploymentPolicy,
-): Types.UpdateTeamsRequestDeploymentPolicy {
-  return modelRuntime.validate(value, "UpdateTeamsRequestDeploymentPolicy");
+/** Constructs a validated UpdateTeamRequestDeploymentPolicy model value. */
+export function createUpdateTeamRequestDeploymentPolicy(
+  value: Types.UpdateTeamRequestDeploymentPolicy,
+): Types.UpdateTeamRequestDeploymentPolicy {
+  return modelRuntime.validate(value, "UpdateTeamRequestDeploymentPolicy");
 }
 
-/** Constructs a validated UpdateTeamsRequestNsnbConfig model value. */
-export function createUpdateTeamsRequestNsnbConfig(
-  value: Types.UpdateTeamsRequestNsnbConfig,
-): Types.UpdateTeamsRequestNsnbConfig {
-  return modelRuntime.validate(value, "UpdateTeamsRequestNsnbConfig");
+/** Constructs a validated UpdateTeamRequestNsnbConfig model value. */
+export function createUpdateTeamRequestNsnbConfig(
+  value: Types.UpdateTeamRequestNsnbConfig,
+): Types.UpdateTeamRequestNsnbConfig {
+  return modelRuntime.validate(value, "UpdateTeamRequestNsnbConfig");
 }
 
-/** Constructs a validated UpdateTeamsRequestDefaultProjectJobs model value. */
-export function createUpdateTeamsRequestDefaultProjectJobs(
-  value: Types.UpdateTeamsRequestDefaultProjectJobs,
-): Types.UpdateTeamsRequestDefaultProjectJobs {
-  return modelRuntime.validate(value, "UpdateTeamsRequestDefaultProjectJobs");
+/** Constructs a validated UpdateTeamRequestDefaultProjectJobs model value. */
+export function createUpdateTeamRequestDefaultProjectJobs(
+  value: Types.UpdateTeamRequestDefaultProjectJobs,
+): Types.UpdateTeamRequestDefaultProjectJobs {
+  return modelRuntime.validate(value, "UpdateTeamRequestDefaultProjectJobs");
 }
 
 /** Constructs a validated ListTeamsResponseTeamsItem model value. */

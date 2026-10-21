@@ -735,7 +735,7 @@ const OPERATION_SECURITY: Readonly<Record<string, readonly (readonly string[])[]
 
   getTeams: [["bearerToken"]],
 
-  updateTeams: [["bearerToken"]],
+  updateTeam: [["bearerToken"]],
 
   listTeams: [["bearerToken"]],
 
